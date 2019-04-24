@@ -7,7 +7,7 @@ def my_collect(collection)
       i = i + 1
     end
    return collection
-          array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+          array = ["Tim Jones", "Tom Smith", Sophie Johnson', 'Antoin Miller]
           my_collect(array) do |name|
            name.split(" ").first
     end
