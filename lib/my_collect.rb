@@ -1,9 +1,10 @@
 def my_collect(collection)
   # code here
   i = 0
-  while i < collection.length
-      yield(collection[i])
-      i = i + 1
-    end
-    my_collect(languages) do |language|
+  collection = []
+  while i < array.length
+  collection << yield(array[i])
+    i += 1
+  end
+  return collection
 end
