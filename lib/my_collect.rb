@@ -8,5 +8,7 @@ def my_collect(collection)
     end
     my_collect(languages) do |language|
       language.split("")
+       my_collect(students) do |student|
+      student.split(" ").first
 end
  
