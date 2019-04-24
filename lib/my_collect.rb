@@ -12,5 +12,5 @@ def my_collect(collection)
            name.split(" ").first
     end
 end
-end
+
  
