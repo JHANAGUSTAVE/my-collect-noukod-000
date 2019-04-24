@@ -6,6 +6,6 @@ def my_collect(collection)
       yield(collection[i])
       i = i + 1
     end
-    
+    my_collect(languages) do |language|
 end
  
