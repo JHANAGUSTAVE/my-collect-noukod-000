@@ -5,8 +5,6 @@ def my_collect(collection)
   while i < collection.length
       yield(collection[i])
       i = i + 1
-       my_collect(students) do |student|
-      student.split(" ").first
     end
    
       
