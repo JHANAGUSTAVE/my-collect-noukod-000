@@ -7,6 +7,9 @@ def my_collect(collection)
       i = i + 1
     end
    return collection
-      
+      collection = ['ruby', 'javascript', 'python', 'objective-c']
+          my_collect(collection) do |lang|
+           lang.upcase
+end
 end
  
