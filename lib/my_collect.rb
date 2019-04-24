@@ -7,6 +7,6 @@ def my_collect(collection)
       i = i + 1
     end
     my_collect(languages) do |language|
-      langu
+      language.split("")
 end
  
